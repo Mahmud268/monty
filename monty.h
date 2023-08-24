@@ -1,5 +1,5 @@
-#ifndef MONTY_H
-#define MONTY_H
+#ifndef monty_h
+#define monty_h
 
 /* Library inclusions */
 #include <stdio.h>
@@ -17,7 +17,7 @@
   * @arg: integer.
   * @flag: option that corresponds to a specific command.
   *
-  * Description: structure fr argument parameters
+  * Description: structure from argument parameters
   * passed to monty.
   */
 typedef struct arg_s
@@ -30,12 +30,12 @@ extern arg_t arg;
 
 /**
   * struct stack_s - doubly linked list representation of a stack (or queue)
-  * @n: integer element within node.
+  * @n: integer element
   * @prev: points to previous element of stack/queue.
   * @next: points to next element of stack/queue.
   *
   * Description: doubly linked node structure
-  * for this Holberton project.
+  * for this alx project.
   */
 typedef struct stack_s
 {
@@ -119,4 +119,4 @@ void divop(stack_t **stack, unsigned int nline);
 void mulop(stack_t **stack, unsigned int nline);
 void modop(stack_t **stack, unsigned int nline);
 
-#endif /* MONTY_H */
+#endif /* monty_h */
