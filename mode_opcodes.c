@@ -5,7 +5,7 @@
   * @stack: pointer to stack.
   * @nline: line number.
   *
-  * Return: NAIN!!
+  * Return: 0 on success
   */
 void addst(stack_t **stack, unsigned int nline)
 {
@@ -20,7 +20,7 @@ void addst(stack_t **stack, unsigned int nline)
   * @stack: pointer to stack.
   * @nline: line number.
   *
-  * Return: NAIN!!
+  * Return: 0 on success
   */
 void addqu(stack_t **stack, unsigned int nline)
 {
