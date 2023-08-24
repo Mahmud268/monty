@@ -5,7 +5,7 @@
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
   *
-  * Return: NAIN
+  * Return: 0 on success
   */
 void addop(stack_t **stack, unsigned int nline)
 {
@@ -29,7 +29,7 @@ void addop(stack_t **stack, unsigned int nline)
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
   *
-  * Return: NAIN
+  * Return: 0 on success
   */
 void subop(stack_t **stack, unsigned int nline)
 {
@@ -55,7 +55,7 @@ void subop(stack_t **stack, unsigned int nline)
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
   *
-  * Return: NAIN
+  * Return: 0 on success
   */
 void divop(stack_t **stack, unsigned int nline)
 {
@@ -87,7 +87,7 @@ void divop(stack_t **stack, unsigned int nline)
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
   *
-  * Return: NAIN
+  * Return: 0 on success
   */
 void mulop(stack_t **stack, unsigned int nline)
 {
@@ -113,7 +113,7 @@ void mulop(stack_t **stack, unsigned int nline)
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
   *
-  * Return: NAIN
+  * Return: 0 on success
   */
 void modop(stack_t **stack, unsigned int nline)
 {
